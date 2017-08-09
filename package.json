@@ -1,0 +1,31 @@
+{
+  "name": "project-boilerplate-v2",
+  "version": "1.0.0",
+  "description": "Starter Project Files",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha ./test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjhensen/project-boilerplate-v2.git"
+  },
+  "author": "Christian Hensen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjhensen/project-boilerplate-v2/issues"
+  },
+  "homepage": "https://github.com/cjhensen/project-boilerplate-v2#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "chai-http": "^3.0.0",
+    "gulp": "^3.9.1",
+    "mocha": "^3.5.0"
+  }
+}
